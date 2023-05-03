@@ -1,0 +1,72 @@
+.navbar {
+    height: 50px;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+}
+
+.usename-nav {
+    padding-left: 25px;
+    font-size: 20px;
+    margin-top: -4px;
+}
+
+.icons {
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.iconImg {
+    width: 20px;
+    height: 20px;
+}
+
+.counter {
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.notifications {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: grey;
+    border: 0.5px solid lightseagreen;
+    border-top: none;
+}
+
+.notification {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.markRead {
+    width: 80%;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+}

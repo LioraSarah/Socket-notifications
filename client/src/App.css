@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  width: 75vh;
+  border-radius: 5px;
+  border: 0.5px solid lightseagreen;
+  height: 99%;
+}
+
+.main-content {
+  height: 520px;
+  overflow-y: auto;
+}
+
+.login-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: whitesmoke; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(186, 186, 186); 
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
