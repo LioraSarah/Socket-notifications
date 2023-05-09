@@ -1,0 +1,12 @@
+{
+  "name": "instant-messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd client && npm start",
+    "build": "cd client && npm install && cd ../socket && npm run build && npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}
